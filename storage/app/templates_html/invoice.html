@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Документ для PDF</title>
+    <style>
+        body {
+            /*font-family: Arial, sans-serif;*/
+            font-family: "DejaVu Sans", sans-serif;
+            margin: 20px;
+            font-size: 14px;
+            color: #333;
+        }
+        h1 {
+            color: #2a2a2a;
+        }
+        .field-label {
+            font-weight: bold;
+        }
+        .field-value {
+            margin-bottom: 15px;
+        }
+        .container {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Отчет</h1>
+
+    <div class="field-value">
+        <span class="field-label">Переменная 1: </span>{{var1}}
+    </div>
+    <div class="field-value">
+        <span class="field-label">Переменная 2: </span>{{var2}}
+    </div>
+    <div class="field-value">
+        <span class="field-label">Переменная 3: </span>{{var3}}
+    </div>
+    <div class="field-value">
+        <span class="field-label">Переменная 4: </span>{{var4}}
+    </div>
+    <div class="field-value">
+        <span class="field-label">Переменная 5: </span>{{var5}}
+    </div>
+</div>
+</body>
+</html>
